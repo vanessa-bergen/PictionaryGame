@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		C2C14EDA24C76D21001528C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14ED924C76D21001528C5 /* AppDelegate.swift */; };
 		C2C14EDC24C76D21001528C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EDB24C76D21001528C5 /* SceneDelegate.swift */; };
-		C2C14EDE24C76D21001528C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EDD24C76D21001528C5 /* ViewController.swift */; };
-		C2C14EE124C76D21001528C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C14EDF24C76D21001528C5 /* Main.storyboard */; };
 		C2C14EE324C76D23001528C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C14EE224C76D23001528C5 /* Assets.xcassets */; };
 		C2C14EE624C76D23001528C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C14EE424C76D23001528C5 /* LaunchScreen.storyboard */; };
+		C2C14EEE24C76D6F001528C5 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EED24C76D6F001528C5 /* DrawViewController.swift */; };
+		C2C14EF024C76DA7001528C5 /* Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EEF24C76DA7001528C5 /* Colour.swift */; };
+		C2C14EF224C76DC6001528C5 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EF124C76DC5001528C5 /* PopupViewController.swift */; };
+		C2C14EF424C76DDE001528C5 /* CustomColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EF324C76DDE001528C5 /* CustomColour.swift */; };
+		C2C14EF624C76DEE001528C5 /* EditColourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C14EF524C76DEE001528C5 /* EditColourViewController.swift */; };
+		C2C14EF824C76E3C001528C5 /* pictionarywords in Resources */ = {isa = PBXBuildFile; fileRef = C2C14EF724C76E3C001528C5 /* pictionarywords */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2C14ED624C76D21001528C5 /* PictionaryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictionaryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C14ED924C76D21001528C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C14EDB24C76D21001528C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2C14EDD24C76D21001528C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2C14EE024C76D21001528C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C14EE224C76D23001528C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C14EE524C76D23001528C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C14EE724C76D23001528C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C14EED24C76D6F001528C5 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		C2C14EEF24C76DA7001528C5 /* Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colour.swift; sourceTree = "<group>"; };
+		C2C14EF124C76DC5001528C5 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		C2C14EF324C76DDE001528C5 /* CustomColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColour.swift; sourceTree = "<group>"; };
+		C2C14EF524C76DEE001528C5 /* EditColourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditColourViewController.swift; sourceTree = "<group>"; };
+		C2C14EF724C76E3C001528C5 /* pictionarywords */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pictionarywords; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 		C2C14ED824C76D21001528C5 /* PictionaryGame */ = {
 			isa = PBXGroup;
 			children = (
+				C2C14EF724C76E3C001528C5 /* pictionarywords */,
 				C2C14ED924C76D21001528C5 /* AppDelegate.swift */,
 				C2C14EDB24C76D21001528C5 /* SceneDelegate.swift */,
-				C2C14EDD24C76D21001528C5 /* ViewController.swift */,
-				C2C14EDF24C76D21001528C5 /* Main.storyboard */,
+				C2C14EED24C76D6F001528C5 /* DrawViewController.swift */,
+				C2C14EEF24C76DA7001528C5 /* Colour.swift */,
+				C2C14EF324C76DDE001528C5 /* CustomColour.swift */,
+				C2C14EF524C76DEE001528C5 /* EditColourViewController.swift */,
+				C2C14EF124C76DC5001528C5 /* PopupViewController.swift */,
 				C2C14EE224C76D23001528C5 /* Assets.xcassets */,
 				C2C14EE424C76D23001528C5 /* LaunchScreen.storyboard */,
 				C2C14EE724C76D23001528C5 /* Info.plist */,
@@ -125,9 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C14EF824C76E3C001528C5 /* pictionarywords in Resources */,
 				C2C14EE624C76D23001528C5 /* LaunchScreen.storyboard in Resources */,
 				C2C14EE324C76D23001528C5 /* Assets.xcassets in Resources */,
-				C2C14EE124C76D21001528C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +150,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C14EDE24C76D21001528C5 /* ViewController.swift in Sources */,
+				C2C14EF224C76DC6001528C5 /* PopupViewController.swift in Sources */,
+				C2C14EEE24C76D6F001528C5 /* DrawViewController.swift in Sources */,
 				C2C14EDA24C76D21001528C5 /* AppDelegate.swift in Sources */,
 				C2C14EDC24C76D21001528C5 /* SceneDelegate.swift in Sources */,
+				C2C14EF424C76DDE001528C5 /* CustomColour.swift in Sources */,
+				C2C14EF624C76DEE001528C5 /* EditColourViewController.swift in Sources */,
+				C2C14EF024C76DA7001528C5 /* Colour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C2C14EDF24C76D21001528C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2C14EE024C76D21001528C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C2C14EE424C76D23001528C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
